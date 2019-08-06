@@ -24,8 +24,6 @@ html {
     margin: 0 auto 0 auto;
 }
 
-<<<<<<< HEAD
-=======
 section {
     padding: 80px 0;
 }
@@ -34,7 +32,6 @@ section {
     padding: 1%;
 }
 
->>>>>>> .
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.658)), url(img/hero.jpg);
     background-size: cover;
@@ -84,17 +81,6 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
-<<<<<<< HEAD
-h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 200%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-=======
 h1,
 h2,
 h3 {
@@ -142,7 +128,6 @@ h2:after {
 .box p {
     font-size: 90%;
     line-height: 145%;
->>>>>>> .
 }
 
 .btn:link,
