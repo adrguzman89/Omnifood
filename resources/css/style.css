@@ -46,6 +46,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -132,6 +133,45 @@ header {
     margin-bottom: 5px;
 }
 
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url(img/back-customers.jpg);
+    background-size: cover;
+    color:white;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -3px;
+    top: -5px;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
 .icon-small {
     display: inline-block;
     width: 30px;
@@ -164,6 +204,11 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
 }
 
 .main-nav li {
@@ -282,10 +327,17 @@ h2:after {
 }
 
 a:link,
-a:active {
+a:visited {
     color: #e67e22;
     text-decoration: none;
-    border-bottom: 1px;
-    padding-bottom: 20
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
 
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
 }
